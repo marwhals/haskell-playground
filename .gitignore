@@ -1,0 +1,49 @@
+# Cabal build artifacts
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~ 
+cabal.sandbox.config
+*.cabal-sandbox/
+*.hi
+*.o
+
+# Stack build artifacts
+.stack-work/
+.stack-root/
+
+# Haskell REPL (GHCi) files
+.ghci
+.ghc.environment.*
+
+# Haskell IDE/Editor files
+*.hie
+*.hcr
+*.hp
+*.eventlog
+*.prof
+
+# Vim swap files
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+*.log
+
+# MacOS system files
+.DS_Store
+
