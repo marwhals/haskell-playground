@@ -1,4 +1,5 @@
 module MyLib (someFunc) where
 
-someFunc :: IO ()
-someFunc = putStrLn "Some text...."
+
+someFunc :: String -> IO ()
+someFunc message = putStrLn ("Got string: " ++ message)
